@@ -26,3 +26,12 @@ Helper documents and guides can be found at:
 1. 9 - 11:50 AM
 2. 12 - 2:50 PM
 3. 3 - 5:50 PM
+
+**Supporting materials found useful**
+
+
+
+** Tips **
+
+
+** Common problems faced and their fix**
