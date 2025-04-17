@@ -32,20 +32,19 @@ Helper documents and guides can be found at:
 3. 3 - 5:50 PM
 
 **Supporting materials found useful**
-1.
-2. 
-3. 
+1. ()[]
+2. ()[]
 
 
 
 **Tips**
-1. 
-2. 
-3.
+1. Tip #1
+2. Tip #2
+3. Tip #3
 
 
 
 **Common problems faced and their fix**
-1. 
-2. 
-3. 
+1. Fix #1
+2. Fix #2
+3. Fix #3
