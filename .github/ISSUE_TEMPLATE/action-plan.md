@@ -16,6 +16,10 @@ The link to the task document: [Link]()
 **Description**
 What exactly needs to be done for the task 
 
+**Platform Used**
+- [x] MacOS (Version 15.3.2)
+- []  Windows
+
 **Supporting Material**
 Helper documents and guides can be found at:
 - []()
@@ -28,10 +32,20 @@ Helper documents and guides can be found at:
 3. 3 - 5:50 PM
 
 **Supporting materials found useful**
+1.
+2. 
+3. 
 
 
 
-** Tips **
+**Tips**
+1. 
+2. 
+3.
 
 
-** Common problems faced and their fix**
+
+**Common problems faced and their fix**
+1. 
+2. 
+3. 
