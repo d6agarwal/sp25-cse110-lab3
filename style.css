@@ -1,0 +1,200 @@
+/* General CSS Topics (comment) */
+
+/* CSS Variables with fallback */
+:root {
+    --primary-color: color-mix(in srgb, rgb(4, 77, 20) 70%, red 30%);
+    --accent-color: var(--primary-color, #1500ff);
+  }
+  
+  body {
+    background-color: hsl(200, 50%, 95%);
+    color: black;
+    font-family: 'Times New Roman'
+  }
+
+  section {
+    border-style: solid;
+    border-color: #333;
+    border-width: 2px;
+    border-radius: 8px;
+  
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+  
+    margin: 10px 20px 10px 20px;
+
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+  
+    width: 80%;
+    max-width: 1000px;
+    min-width: 300px;
+    height: auto;
+  
+    background-color: rgb(245, 245, 245);
+  }
+  
+
+  footer {
+    margin: auto;
+    padding: 1em 2em 1em 2em;
+    border: 2px dashed #555;
+  }
+  
+
+  img, video {
+    display: inline-block;
+  }
+  
+  details {
+    display: block;
+  }
+  
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+
+  #media {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: center;
+    justify-items: start;
+  }
+  
+
+  header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+  
+  audio {
+    position: relative;
+    left: 10px;
+  }
+
+  a:hover {
+    color: red;
+  }
+  
+  button:active {
+    background-color: #ccc;
+  }
+  
+
+  h1, h2 {
+    color: var(--accent-color);
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+
+  @media screen and (max-width: 770px) {
+    section {
+      width: 95%;
+      font-size: 1.2em;
+    }
+  }
+  
+
+
+
+  /* CSS Selectors */
+  
+  /* Class selector */
+  .team-member {
+    font-weight: bold;
+  }
+  
+  /* ID selector */
+  #agenda {
+    background-color: rgb(243, 238, 255);
+  }
+  
+  /* Universal selector */
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Element selector */
+  ul {
+    list-style-type: square;
+  }
+  
+  /* Attribute selector */
+  input[type="text"] {
+    border: 1px solid gray;
+  }
+  
+  /* Pseudo-class */
+  li:hover {
+    background-color: #ddd;
+  }
+  
+  /* Selector list */
+  h3, p {
+    font-style: italic;
+  }
+  
+  /* Descendant combinator */
+  main section {
+    margin-bottom: 2em;
+  }
+  
+  /* Child combinator */
+  nav > ul {
+    background-color: rgba(255, 255, 0, 0.2);
+  }
+  
+  /* General sibling combinator */
+  h2 ~ ul {
+    border-top: 1px solid gray;
+  }
+  
+  /* Adjacent sibling combinator */
+  h3 + video {
+    margin-top: 1em;
+  }
+  
+  /* Combining element and class */
+  li.team-member {
+    color: teal;
+  }
+  
+  /* has() selector */
+  section:has(video) {
+    background-color: #fdf0d5;
+  }
+  
+  /* Nested selector */
+  @layer components {
+    nav {
+      & ul {
+        padding: 0;
+      }
+      & li {
+        list-style-type: none;
+      }
+    }
+  }
+  
+  /* 3rd Party Font */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
