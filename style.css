@@ -180,16 +180,17 @@
   }
   
   /* Nested selector */
-  @layer components {
-    nav {
-      & ul {
-        padding: 0;
-      }
-      & li {
-        list-style-type: none;
-      }
+  nav {
+    ul {
+      padding: 0;
+    }
+  
+    li {
+      list-style-type: none;
     }
   }
+  
+  
   
   /* 3rd Party Font */
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
